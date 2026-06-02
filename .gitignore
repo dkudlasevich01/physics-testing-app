@@ -1,0 +1,50 @@
+.gitignore
+
+## Byte-compiled / optimized / DLL files
+bin/
+obj/
+
+## Visual Studio
+.vs/
+*.sln.DotSettings.user
+*.user
+*.userosscache
+*.sln.docstates
+
+## Visual Studio Code
+.vscode/
+.idea/
+
+## Database files
+*.db
+*.sqlite
+*.sqlite3
+
+## OS
+.DS_Store
+Thumbs.db
+
+## Build results
+[Dd]ebug/
+[Dd]ebugPublic/
+[Rr]elease/
+[Rr]eleases/
+
+## NuGet
+packages/
+.nuget/
+
+## User files
+*.suo
+*.suo
+
+## Test Results
+TestResults/
+
+## Local environment
+.env
+local.settings.json
+
+## Build output
+out/
+publish/
