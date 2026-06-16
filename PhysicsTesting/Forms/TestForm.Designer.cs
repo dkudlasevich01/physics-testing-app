@@ -26,7 +26,6 @@ namespace PhysicsTesting.Forms
             this.progressBar = new System.Windows.Forms.ProgressBar();
             this.lblProgress = new System.Windows.Forms.Label();
             this.lblTimer = new System.Windows.Forms.Label();
-            this.timer = new System.Windows.Forms.Timer(this.components);
             this.panel1 = new System.Windows.Forms.Panel();
             this.SuspendLayout();
             
@@ -130,9 +129,6 @@ namespace PhysicsTesting.Forms
             this.lblTimer.TabIndex = 9;
             this.lblTimer.Text = "Время: 0:00";
             
-            // timer
-            this.timer.Tick += new System.EventHandler(this.timer_Tick);
-            
             // panel1
             this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(240)))), ((int)(((byte)(245)))));
             this.panel1.Dock = System.Windows.Forms.DockStyle.Fill;
@@ -162,7 +158,6 @@ namespace PhysicsTesting.Forms
             this.Name = "TestForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Тестирование";
-            this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.TestForm_FormClosed);
             this.ResumeLayout(false);
             this.PerformLayout();
         }
@@ -177,7 +172,6 @@ namespace PhysicsTesting.Forms
         private System.Windows.Forms.ProgressBar progressBar;
         private System.Windows.Forms.Label lblProgress;
         private System.Windows.Forms.Label lblTimer;
-        private System.Windows.Forms.Timer timer;
         private System.Windows.Forms.Panel panel1;
     }
 }
